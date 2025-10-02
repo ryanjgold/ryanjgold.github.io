@@ -1,0 +1,26 @@
+# _config.yml (minimal)
+title: "Ryan Goldberg"
+name: "Ryan Goldberg"
+description: "Ph.D. candidate · Computer Vision & Remote Sensing"
+url: "https://ryanjgold.github.io"
+baseurl: ""   # leave blank for user site
+repository: "ryanjgold/ryanjgold.github.io"
+
+# AcademicPages theme switcher
+site_theme: air
+
+# Collections (enable what you plan to use)
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
